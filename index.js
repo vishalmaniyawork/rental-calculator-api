@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/calculate", calculator);
-
-app.listen(8080, () => {
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
   console.log("Hello World!");
 });
