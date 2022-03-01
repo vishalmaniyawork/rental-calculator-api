@@ -379,6 +379,24 @@ finalhandler@~1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
+formula-errors@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/formula-errors/-/formula-errors-1.0.2.tgz#f62ae7732c6b6ed7be9c55e9e27630d0914c093f"
+  integrity sha1-9irncyxrbte+nFXp4nYw0JFMCT8=
+
+formula-isnumber@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/formula-isnumber/-/formula-isnumber-1.0.1.tgz#cccb928efd2e815a24c2f0fe4fba848c5ed88751"
+  integrity sha1-zMuSjv0ugVokwvD+T7qEjF7Yh1E=
+
+formula-pmt@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/formula-pmt/-/formula-pmt-1.0.1.tgz#c833da54ff8c2b5b83d3dfd92f74e2f9209a7e57"
+  integrity sha1-yDPaVP+MK1uD09/ZL3Ti+SCaflc=
+  dependencies:
+    formula-errors "^1.0.2"
+    formula-isnumber "^1.0.0"
+
 forwarded@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz#2269936428aad4c15c7ebe9779a84bf0b2a81811"
